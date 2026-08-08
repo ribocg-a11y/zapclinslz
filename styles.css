@@ -641,31 +641,14 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   margin: 0 0 0.45rem;
 }
 .compare-card p { color: var(--muted); }
-.compare-extra {
+.compare-depois-row {
   margin-top: 1rem;
-  border-radius: var(--radius);
-  border: 1px solid rgba(143,209,79,0.28);
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 80% 20%, rgba(143,209,79,0.14), transparent 45%),
-    var(--bg-elev);
+  grid-template-columns: 1fr;
+  max-width: 560px;
 }
-.compare-extra.depois {
+.compare-depois-row .compare-card {
   border-color: rgba(143,209,79,0.4);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
-}
-.compare-extra .compare-media {
-  aspect-ratio: 16 / 10;
-  max-height: 480px;
-}
-.compare-extra figcaption {
-  padding: 1.05rem 1.25rem 1.25rem;
-  color: var(--muted);
-  font-size: 0.98rem;
-}
-.compare-extra figcaption strong {
-  color: var(--text);
-  font-weight: 800;
 }
 
 /* Locations */
