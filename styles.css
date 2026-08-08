@@ -604,8 +604,7 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   display: block;
   transition: transform 0.45s ease;
 }
-.compare-card:hover .compare-media img,
-.compare-extra:hover .compare-media img {
+.compare-card:hover .compare-media img {
   transform: scale(1.03);
 }
 .compare-media .label,
@@ -622,13 +621,11 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   letter-spacing: 0.08em;
   backdrop-filter: blur(8px);
 }
-.compare-card.antes .label,
-.compare-extra .compare-media .label.label-antes {
+.compare-card.antes .label {
   background: rgba(255,93,108,0.88);
   color: #fff;
 }
-.compare-card.depois .label,
-.compare-extra .label {
+.compare-card.depois .label {
   background: rgba(143,209,79,0.9);
   color: #0a1406;
 }
