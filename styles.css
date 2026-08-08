@@ -638,11 +638,82 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   font-weight: 700;
 }
 .chip-live { background: rgba(37,211,102,0.12); color: #3dff9a; }
-.chip-soon { background: rgba(0,200,224,0.12); color: var(--cyan); }
+.chip-soon {
+  background: rgba(240,193,75,0.16);
+  color: var(--gold);
+  border: 1px solid rgba(240,193,75,0.35);
+}
 .soon-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(240,193,75,0.45);
   background:
-    linear-gradient(160deg, rgba(0,200,224,0.12), transparent 50%),
-    var(--bg-elev);
+    radial-gradient(circle at 90% 10%, rgba(240,193,75,0.22), transparent 42%),
+    linear-gradient(160deg, rgba(0,200,224,0.16), transparent 55%),
+    linear-gradient(180deg, #141f3a, #0c1428);
+  box-shadow:
+    0 0 0 1px rgba(240,193,75,0.08),
+    0 18px 48px rgba(0, 0, 0, 0.35);
+}
+.soon-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--gold), var(--cyan-deep));
+}
+.soon-card::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: -48px;
+  bottom: -64px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(240,193,75,0.18), transparent 68%);
+  pointer-events: none;
+}
+.soon-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.35rem;
+}
+.soon-flag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1406;
+  background: linear-gradient(135deg, #ffe08a, var(--gold));
+  animation: soonPulse 2.4s ease-in-out infinite;
+}
+@keyframes soonPulse {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.04); filter: brightness(1.08); }
+}
+.soon-card h3 {
+  font-size: clamp(1.45rem, 3vw, 1.75rem);
+  margin: 0.55rem 0 0.65rem;
+}
+.soon-lead {
+  color: var(--muted);
+  margin: 0 0 1.15rem;
+  max-width: 32ch;
+}
+.soon-lead strong {
+  color: var(--text);
+  font-weight: 800;
+}
+.soon-card .btn-primary {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 /* FAQ */
