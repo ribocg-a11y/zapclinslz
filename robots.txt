@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zapclinslz.com/sitemap.xml
+Sitemap: https://www.zapclinslz.com/sitemap.xml
