@@ -534,7 +534,7 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   border: 1px solid rgba(0,200,224,0.28);
   background:
     linear-gradient(120deg, rgba(0,200,224,0.12), transparent 45%),
-    url("/assets/loja-balcao.jpg") center/cover;
+    url("/assets/extra-chuva.jpg") center/cover;
   min-height: 260px;
   position: relative;
   overflow: hidden;
