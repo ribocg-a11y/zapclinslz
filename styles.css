@@ -882,7 +882,7 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
   .edu-grid,
   .loc-grid,
   .compare { grid-template-columns: 1fr; }
-  .compare-extra .compare-media { max-height: none; aspect-ratio: 4 / 5; }
+  .compare-depois-row { max-width: none; }
 }
 @media (max-width: 720px) {
   .nav-toggle { display: inline-flex; }
