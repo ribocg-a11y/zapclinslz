@@ -650,14 +650,22 @@ section { padding: 4.5rem 0; position: relative; z-index: 1; }
     radial-gradient(circle at 80% 20%, rgba(143,209,79,0.14), transparent 45%),
     var(--bg-elev);
 }
+.compare-extra.depois {
+  border-color: rgba(143,209,79,0.4);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+}
 .compare-extra .compare-media {
   aspect-ratio: 16 / 10;
-  max-height: 420px;
+  max-height: 480px;
 }
 .compare-extra figcaption {
-  padding: 1rem 1.25rem 1.2rem;
+  padding: 1.05rem 1.25rem 1.25rem;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.98rem;
+}
+.compare-extra figcaption strong {
+  color: var(--text);
+  font-weight: 800;
 }
 
 /* Locations */
