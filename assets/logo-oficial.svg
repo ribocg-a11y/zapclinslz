@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 580" role="img" aria-label="ZapClin Higieniza??o de Capacetes">
+  <defs>
+    <linearGradient id="hg" x1="120" y1="300" x2="360" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2AD6C4"/>
+      <stop offset="45%" stop-color="#4FF0CF"/>
+      <stop offset="100%" stop-color="#A8FFC0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="520" height="580" rx="40" fill="#0A0F24"/>
+
+  <!-- brilhos ? esquerda -->
+  <g>
+    <path d="M78 175l7 16 16 7-16 7-7 16-7-16-16-7 16-7z" fill="#fff"/>
+    <path d="M52 208l4.5 10 10 4.5-10 4.5-4.5 10-4.5-10-10-4.5 10-4.5z" fill="#7BFFD5"/>
+    <path d="M98 214l3.5 8 8 3.5-8 3.5-3.5 8-3.5-8-8-3.5 8-3.5z" fill="#fff"/>
+    <path d="M44 236c20-12 40-14 62-8" fill="none" stroke="#7BFFD5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 254c16-8 32-10 50-6" fill="none" stroke="#7BFFD5" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+  </g>
+
+  <!-- capacete -->
+  <g fill="none" stroke="url(#hg)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <!-- contorno principal -->
+    <path d="M175 265
+             C175 155 245 95 325 95
+             C405 95 455 160 455 235
+             C455 285 430 325 390 345
+             C370 355 345 360 320 360
+             L230 360
+             C195 355 165 330 155 295
+             C148 275 155 265 175 265Z"/>
+    <!-- abertura da viseira -->
+    <path d="M195 245
+             C215 205 270 180 335 185
+             C385 188 420 215 430 250
+             C395 262 350 268 305 265
+             C255 262 215 255 195 245Z"/>
+    <!-- linha da queixeira -->
+    <path d="M205 320 C245 342 290 350 340 348 C375 346 405 335 425 318"/>
+  </g>
+
+  <!-- estrela na viseira -->
+  <path d="M318 218 l11 26 28 11 -28 11 -11 26 -11 -26 -28 -11 28 -11z" fill="#FFFFFF"/>
+
+  <!-- ZapClin -->
+  <text x="260" y="445" text-anchor="middle"
+        font-family="Montserrat, Arial Black, Arial, sans-serif"
+        font-size="82" font-weight="800" letter-spacing="-1.2">
+    <tspan fill="#4FF0CF">Zap</tspan><tspan fill="#FFFFFF">Clin</tspan>
+  </text>
+
+  <!-- tagline -->
+  <text x="260" y="495" text-anchor="middle"
+        font-family="Montserrat, Arial, sans-serif"
+        font-size="25" font-weight="700" fill="#FFFFFF">
+    Higieniza??o de Capacetes
+  </text>
+</svg>
