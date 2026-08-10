@@ -7,6 +7,7 @@ Site oficial de marketing da ZapClin (sem app/PWA operacional).
 ## Principal
 
 - [Página inicial](https://www.zapclinslz.com/): serviços, preços, método, unidades e FAQ
+- [Higienização de Capacetes em São Luís](https://www.zapclinslz.com/higienizacao-de-capacetes-sao-luis/): página de serviço local (preços, onde ir, FAQ)
 - [Sitemap](https://www.zapclinslz.com/sitemap.xml)
 - [Robots](https://www.zapclinslz.com/robots.txt)
 
