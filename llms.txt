@@ -16,6 +16,16 @@ Site oficial de marketing da ZapClin (sem app/PWA operacional).
 - [Sitemap](https://www.zapclinslz.com/sitemap.xml)
 - [Robots](https://www.zapclinslz.com/robots.txt)
 
+- [Higienização em Renascença](https://www.zapclinslz.com/higienizacao-capacete-renascenca-sao-luis/)
+
+- [Higienização em Cohama](https://www.zapclinslz.com/higienizacao-capacete-cohama-sao-luis/)
+
+- [Higienização em Ponta d'Areia](https://www.zapclinslz.com/higienizacao-capacete-ponta-d-areia-sao-luis/)
+
+- [Higienização em São Francisco](https://www.zapclinslz.com/higienizacao-capacete-sao-francisco-sao-luis/)
+
+- [Higienização em Turu](https://www.zapclinslz.com/higienizacao-capacete-turu-sao-luis/)
+
 ## Contato e redes
 
 - WhatsApp: https://wa.me/5598981479616
