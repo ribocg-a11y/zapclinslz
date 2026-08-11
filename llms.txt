@@ -7,7 +7,12 @@ Site oficial de marketing da ZapClin (sem app/PWA operacional).
 ## Principal
 
 - [Página inicial](https://www.zapclinslz.com/): serviços, preços, método, unidades e FAQ
-- [Higienização de Capacetes em São Luís](https://www.zapclinslz.com/higienizacao-de-capacetes-sao-luis/): página de serviço local (preços, onde ir, FAQ)
+- [Higienização de Capacetes em São Luís](https://www.zapclinslz.com/higienizacao-de-capacetes-sao-luis/): página de serviço local
+- [Preço da higienização](https://www.zapclinslz.com/preco-higienizacao-capacete-sao-luis/): tabela R$ 15–70
+- [Quanto tempo demora](https://www.zapclinslz.com/quanto-tempo-higienizar-capacete/): SLAs 8 min–4 h
+- [Como higienizar capacete](https://www.zapclinslz.com/como-higienizar-capacete/): processo passo a passo (HowTo)
+- [Higienização vs lavagem](https://www.zapclinslz.com/higienizacao-vs-lavagem-capacete/): qual serviço escolher
+- [Calhau · Golden Shopping](https://www.zapclinslz.com/higienizacao-capacete-calhau-golden-shopping/): unidade no Calhau
 - [Sitemap](https://www.zapclinslz.com/sitemap.xml)
 - [Robots](https://www.zapclinslz.com/robots.txt)
 
