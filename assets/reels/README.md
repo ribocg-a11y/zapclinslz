@@ -20,9 +20,9 @@ python3 scripts/generate_zapclin_reel.py
 
 ## Roteiro (timeline)
 
-1. **0–4s** — Hook: “Capacete fedendo?” + 8 minutos  
-2. **4–9s** — Higienização completa  
-3. **9–15s** — Limpeza → Higienização → Desodorização  
-4. **15–20s** — “Você não vê, mas está lá.”  
-5. **20–25s** — 8 min · a partir de R$ 15 · Golden Shopping Calhau  
-6. **25–30s** — CTA WhatsApp + site + São Luís  
+1. **0–3.5s** — Hook: “Capacete fedendo?” + 8 minutos  
+2. **3.9–8.2s** — Higienização completa  
+3. **8.6–13.9s** — Limpeza → Higienização → Desodorização  
+4. **14.3–19.1s** — “Você não vê, mas está lá.”  
+5. **19.5–23.6s** — 8 min · a partir de R$ 15 · Golden Shopping Calhau  
+6. **24.2–30s** — CTA WhatsApp + site + São Luís  
