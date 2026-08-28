@@ -1,4 +1,9 @@
 frames/
 video_silent.mp4
 narracao.mp3
+institucional-narracao.mp3
+institucional-work/
 *.ttf
+
+# Duplicatas das fotos originais (mantemos os nomes amigáveis)
+institucional/01a04878-*.jpg
